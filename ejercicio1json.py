@@ -12,6 +12,6 @@ lineas=json.load(fichero)
 
 for x in lineas:
 	
-	print ""
-
+	
+	print "\n"
 	print x["pedania"]
