@@ -8,7 +8,7 @@ import json
 from pprint import pprint
 
 
-fichero=open("/home/alvarocamargo/Descargas/segundo año/lenguaje de marcas/mercados.json","r")
+fichero=open("mercados.json","r")
 lineas=json.load(fichero)
 dia=raw_input("Introduce un dia de la semana(Los días de la semana en mayúsculas):")
 for q in lineas:
