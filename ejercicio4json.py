@@ -16,7 +16,7 @@ print "\n"
 for y in datos:
 	
 	if y["pedania"].startswith(empieza)==True:
-		print "----------SEGÚN LA SUBCADENA INTRODUCIDA USTED DESEA BUSCAR INFORMACIÓN DEL MERCADO----------"
+		print "-----------SEGÚN LA SUBCADENA INTRODUCIDA USTED DESEA BUSCAR INFORMACIÓN DEL MERCADO----------"
 
 		print "EL NOMBRE DE LA PEDANÍA QUE DESEABA BUSCAR ES:", y["pedania"]
 		print "\n"
