@@ -7,5 +7,8 @@ with open("mercados.json","r") as fichero:
 
 
 
-
+cont=0
+for r in doc:
+	if r["tipo"]=="MERCADO SEMANAL" or r["tipo"]=="PLAZA DE ABASTOS":
+	
 
