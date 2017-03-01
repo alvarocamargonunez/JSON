@@ -10,3 +10,8 @@ from pprint import pprint
 fichero=open("/home/alvarocamargo/Descargas/segundo año/lenguaje de marcas/mercados.json","r")
 lineas=json.load(fichero)
 
+for x in lineas:
+	
+	print ""
+
+	print x["pedania"]
