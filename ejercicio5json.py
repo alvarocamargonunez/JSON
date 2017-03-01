@@ -12,4 +12,8 @@ numero=int(raw_input("Introduce un numero de puestos determinado:"))
 hay=False
 for x in lineas:
 	
-	
+	if x["puestos"]==numero:
+		hay=True
+		print "los mercados con", numero, "puestos es", x["pedania"], "su horario es", x["horario"], "\n"
+if not hay:
+	print "No hay mercados con ese número de puestos"
