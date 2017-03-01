@@ -6,7 +6,7 @@ reload(sys)
 sys.setdefaultencoding("utf-8")
 import json
 from pprint import pprint
-fichero=open("/home/alvarocamargo/Descargas/segundo año/lenguaje de marcas/mercados.json","r")
+fichero=open("mercados.json","r")
 lineas=json.load(fichero)
 numero=int(raw_input("Introduce un numero de puestos determinado:"))
 hay=False
