@@ -12,3 +12,8 @@ fichero=open("mercados.json","r")
 datos=json.load(fichero)
 empieza=raw_input("Introduce el comienzo del nombre de la pedanía que desea buscar:")
 
+print "\n"
+for y in datos:
+	
+	if y["pedania"].startswith(empieza)==True:
+		
